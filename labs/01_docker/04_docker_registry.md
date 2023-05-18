@@ -1,19 +1,8 @@
-# Docker Registry
+## Choose your favourite Container Registry and connect to it from your terminal. (for learning /personal use)
 
-> **Important**: We'll be using public docker registry for the purpose of labs and to faciliate collaboration. In actual development and production environments, you should be using a private registry such as `acr`. See: [Azure container registry](https://azure.microsoft.com/en-gb/services/container-registry/)
-
-## Create a Docker hub account and connect to it.
-
-Go to https://hub.docker.com/ and signup using your temp / personal account. If you are using your personal email to sign up for docker hub, make sure you're using your own / personal dev machine. (you can also do a `docker logout` when you're done)
-
-1. Once you have created a docker hub account, login via terminal as below. 
-
-    ```bash
-        # Enter your username and password when prompted
-        docker login
-        
-        # you should receive something like `login succeeded`        
-    ```
+* Github Container Registry - ghcr.io
+* Docker Hub
+* Azure Container Registry
 
 ## Tag and Push your image to registry.
 
